@@ -1,0 +1,38 @@
+.br-ingredient-analysis-container {
+  padding: 100px;
+}
+
+.br-ingredient-analysis-container .ant-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.br-ingredient-analysis-container > .ant-card {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.br-ingredient-analysis-container__nutrition {
+  display: flex;
+}
+
+.br-ingredient-analysis-container__nutrition > div:last-child {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .br-ingredient-analysis-container {
+    padding: 50px;
+  }
+
+  .br-ingredient-analysis-container .ant-row > div {
+    flex-direction: column;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .br-ingredient-analysis-container > .ant-card {
+    width: 100%;
+  }
+}
